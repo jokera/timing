@@ -1,0 +1,45 @@
+.menu li
+{ 
+    list-style: none;
+    float: left;
+    padding: 6px;
+    margin: 1px;
+    display: block;
+    font-size: x-large;
+    font-family: sans-serif;
+    opacity: 0.5;
+    border-radius:25px;
+    border:2px solid;
+}
+
+.menu li:hover
+{
+    list-style: none;
+    float: left;
+    float: top;
+    padding: 6px;
+    background: wheat;
+    opacity: 1;
+    margin-bottom:  1px;
+    cursor:pointer;
+    border-radius:25px;
+    border:2px solid;
+    box-shadow: 10px 10px 5px #888888;
+}
+.menu li a
+{
+    text-decoration: none;
+    color: black;
+}
+menu 
+{
+    //position: absolute;
+    margin-bottom: 20px;
+    position: absolute;
+}
+.leftMenu
+{
+    float:top;
+    width: 40px;
+}
+

@@ -1,0 +1,65 @@
+#addCompetition, .editCompetition
+{
+    height: 280px;
+    opacity: 0.9;
+    margin-left: 860px;
+    padding: 10px;
+    width: 270px;
+    border-radius: 25px;
+    border: 2px solid;
+    background:   antiquewhite;
+    margin-top: 50px;
+    position: absolute;
+}
+#addCompetition:hover
+{
+    opacity: 1;
+}
+#competitions,#results
+{
+    width:700px;
+    background: bisque;
+    border: solid 1px;
+    border-radius: 5px;
+    border-collapse: collapse;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#competitions tr:hover
+{
+    background:gold;
+    cursor: pointer;
+}
+#competitions thead th
+{
+    border-bottom: 1px solid;
+    background: bisque;
+    text-align: left;
+}
+#competitions thead th:hover
+{
+    background: #0d3349;
+    cursor: default;
+}
+#deleteCompetition:hover
+{
+    background: red;
+    border-radius: 3px;
+}
+#startListTitle
+{
+    margin-left:  150px;
+    margin-top: -20px;
+    margin-bottom: -6px;
+    color:greenyellow ;
+
+}
+#competitions tr:nth-child(odd)
+{
+    background: white;
+}
+#competitions tr:nth-child(odd):hover
+{
+    background: gold;
+}
